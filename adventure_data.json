@@ -1,0 +1,40 @@
+{
+  "options_mapping": {
+    "intro": "1",
+    "Enter haak": "2",
+    "Jungle": "3",
+    "Klimmen": "4",
+    "Liaan": "5",
+    "Katapult": "6",
+    "Rivier": "7",
+    "Rups": "8",
+    "Krokodil bang maken": "9",
+    "Apen": "10",
+    "Opnieuw": "11",
+    "Termieten": "12",
+    "Onder water": "13",
+    "Langs kustlijn": "14",
+    "Boomstam": "15",
+    "Val": "16",
+    "Tegen stroom in": "17"
+  },
+  "adventure_data": {
+    "intro": {"text": "intro", "options": {"Enter haak": "Enter haak", "Katapult": "Katapult"}},
+    "Enter haak": {"text": "Enter haak", "options": {"Jungle": "Jungle", "Rivier": "Rivier"}},
+    "Jungle": {"text": "Jungle", "options": {"Klimmen": "Klimmen", "Apen": "Apen"}},
+    "Klimmen": {"text": "Klimmen", "options": {"Liaan": "Liaan", "Boomstam": "Boomstam"}},
+    "Liaan": {"text": "Liaan", "options": {}},
+    "Katapult": {"text": "Katapult", "options": {"Jungle": "Jungle", "Rivier": "Rivier"}},
+    "Rivier": {"text": "Rivier", "options": {"Termieten": "Termieten", "Rups": "Rups"}},
+    "Rups": {"text": "Rups", "options": {"Liaan": "Liaan", "Boomstam": "Boomstam"}},
+    "Krokodil bang maken": {"text": "Krokodil bang maken", "options": {"Termieten": "Termieten", "Rups": "Rups"}},
+    "Apen": {"text": "Apen", "options": {}},
+    "Opnieuw": {"text": "Opnieuw", "options": {"Klimmen": "Klimmen", "Apen": "Apen"}},
+    "Termieten": {"text": "Termieten", "options": {"Liaan": "Liaan", "Boomstam": "Boomstam"}},
+    "Onder water": {"text": "Onder water", "options": {"Langs kustlijn": "Langs kustlijn", "Tegen stroom in": "Tegen stroom in"}},
+    "Langs kustlijn": {"text": "Langs kustlijn", "options": {"Apen": "Apen", "Klimmen": "Klimmen"}},
+    "Boomstam": {"text": "Boomstam", "options": {}},
+    "Val": {"text": "Val", "options": {"Opnieuw": "Opnieuw"}},
+    "Tegen stroom in": {"text": "Tegen stroom in", "options": {"Opnieuw": "Opnieuw", "intro": "intro"}}
+  }
+}

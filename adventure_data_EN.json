@@ -1,0 +1,40 @@
+{
+  "options_mapping": {
+    "intro": "1",
+    "Grappling hook": "2",
+    "Jungle": "3",
+    "Climbing": "4",
+    "Liana": "5",
+    "Slingshot": "6",
+    "River": "7",
+    "Caterpillar": "8",
+    "Scare crocodile": "9",
+    "Monkeys": "10",
+    "Again": "11",
+    "Termites": "12",
+    "Underwater": "13",
+    "Along coastline": "14",
+    "Log": "15",
+    "Fall": "16",
+    "Against the current": "17"
+  },
+  "adventure_data": {
+    "intro": {"text": "intro", "options": {"Grappling hook": "Grappling hook", "Slingshot": "Slingshot"}},
+    "Grappling hook": {"text": "Grapling hook", "options": {"Jungle": "Jungle", "River": "River"}},
+    "Jungle": {"text": "Jungle", "options": {"Climbing": "Climbing", "Monkeys": "Monkeys"}},
+    "Climbing": {"text": "Climbing", "options": {"Liana": "Liana", "Log": "Log"}},
+    "Liana": {"text": "Liana", "options": {}},
+    "Slingshot": {"text": "Slingshot", "options": {"Jungle": "Jungle", "River": "River"}},
+    "River": {"text": "River", "options": {"Termites": "Termites", "Caterpillar": "Caterpillar"}},
+    "Caterpillar": {"text": "Caterpillar", "options": {"Liana": "Liana", "Log": "Log"}},
+    "Scare crocodile": {"text": "Scare crocodile", "options": {"Termites": "Termites", "Caterpillar": "Caterpillar"}},
+    "Monkeys": {"text": "Monkeys", "options": {}},
+    "Again": {"text": "Again", "options": {"Climbing": "Climbing", "Monkeys": "Monkeys"}},
+    "Termites": {"text": "Termites", "options": {"Liana": "Liana", "Log": "Log"}},
+    "Underwater": {"text": "Underwater", "options": {"Along coastline": "Along coastline", "Against the current": "Against the current"}},
+    "Along coastline": {"text": "Along coastline", "options": {"Monkeys": "Monkeys", "Climbing": "Climbing"}},
+    "Log": {"text": "Log", "options": {}},
+    "Fall": {"text": "Fall", "options": {"Again": "Again"}},
+    "Against the current": {"text": "Against the current", "options": {"Again": "Again", "intro": "intro"}}
+  }
+}
